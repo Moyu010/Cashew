@@ -17,7 +17,7 @@ Future<Map<String, dynamic>> getDefaultPreferences() async {
   return {
     "databaseJustImported": false,
     "backupLimit": 20,
-    "backupSync": true,
+    "backupSync": false,
     "syncEveryChange": kIsWeb,
     "devicesHaveBeenSynced": 1,
     "numBackups": 1,
